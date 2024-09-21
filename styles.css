@@ -1,0 +1,101 @@
+
+body {
+    background-color: #A19292;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: rgba(26, 26, 23, 1);
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    width: 400px;
+    text-align: center;
+    color: #ECF0F1;
+}
+
+.container h1 {
+    margin: 0 0 10px;
+    font-size: 24px;
+    color: #FF0000;
+}
+
+.container p {
+    margin: 10px 0;
+}
+
+.rules {
+    text-align: left;
+    margin: 20px 0;
+}
+
+.rules h2 {
+    color: #E74C3C;
+    margin-bottom: 10px;
+}
+
+.rules ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.container p {
+color: rgba(108, 110, 219, 1) ;
+
+}
+
+.rules li {
+    margin: 5px 0;
+    color : #22D272;
+}
+
+#appealForm {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 9px;
+    outline: none;
+    resize: none;
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+}
+
+textarea {
+    height: 100px;
+}
+
+button, .button {
+    background-color: #9800FF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+button:hover, .button:hover {
+    background-color: #C0392B;
+}
+
+#success-message {
+    margin-top: 15px;
+    color: #2ECC71;
+}
