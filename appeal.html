@@ -3,12 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Appeal from- Submit Your Appeal</title>
+    <title>Appeal Hub (Labib) - Submit Your Appeal</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function() {
+            emailjs.init("rpl-CDDc6FmhFrB0o"); // Replace with your User ID
+        })();
+    </script>
 </head>
 <body>
     <div class="container">
-        <h1>Appeal from (to Labib)</h1>
+        <h1>Appeal Hub (Labib)</h1>
         <p>Please share your email and apology message.</p>
         <form id="appealForm">
             <input type="email" id="email" placeholder="Your Email Address" required>
