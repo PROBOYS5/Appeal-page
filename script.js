@@ -15,7 +15,7 @@ document.getElementById("appealForm").addEventListener("submit", function(event)
             document.getElementById("success-message").style.color = "#2ECC71";
             document.getElementById("appealForm").reset();
         }, function(error) {
-            document.getElementById("success-message").textContent = "Failed to send your apology. Please try again.";
+            document.getElementById("success-message").textContent = "Failed to send your message. Please try again.";
             document.getElementById("success-message").style.color = "#E74C3C";
             console.error("FAILED...", error);
         });
